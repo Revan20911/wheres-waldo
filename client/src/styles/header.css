@@ -1,0 +1,46 @@
+:root{
+
+    --prim-dark: #072b65;
+    --prin-light:#e6eaf0;
+    
+}
+
+*, *before, *after{
+
+    box-sizing: border-box;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    background-color: var(--prim-dark);
+    height: 200px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-list{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.false{
+
+    height: 3rem;
+    width: fit-content;
+    padding: 3rem 3rem;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--prin-light);
+    font-size: 2rem;
+    border: 2px solid var(--prin-light);
+}
+
+
+

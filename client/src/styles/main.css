@@ -1,0 +1,35 @@
+:root{
+
+    --prim-dark: #072b65;
+    --prin-light:#d3d6d9;
+    
+}
+
+*, *before, *after{
+
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: var(--prin-light);
+}
+
+.main img{
+
+    width: 100%;
+}
+
+.main h1{
+
+    bottom: 0;
+    position: sticky;
+    padding: 20px;
+    
+}
+
+#message{
+
+    font-size: 3rem;
+    color: var(--prim-dark);
+}
+
